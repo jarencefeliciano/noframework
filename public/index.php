@@ -1,9 +1,3 @@
 <?php
 
-use App\Core\App;
-
-require dirname(__DIR__) . '/vendor/autoload.php';
-
-$app = new App();
-
-var_dump($app);
+require dirname(__DIR__) . '/bootstrap/App.php';
