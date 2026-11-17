@@ -1,3 +1,3 @@
 <?php
 
-echo "Hello, World!";
+require dirname(__DIR__) . '/bootstrap/App.php';
